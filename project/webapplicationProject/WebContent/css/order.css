@@ -1,0 +1,14 @@
+@CHARSET "ISO-8859-1";
+
+.parent-container .child-div-or a {
+	font-size: 30px;
+	font-family:  'Hoefler Text', Georgia, 'Times New Roman', serif;
+	text-transform: uppercase;
+	font-weight:400;
+	letter-spacing: .2em;
+/* 	TEXT-SHADOW: 1PX 1PX 8PX RGBA(150, 150, 150, 1); */
+}
+
+.parent-container .child-div-or {
+	margin: 15px 0px 15px 0px;
+}

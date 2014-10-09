@@ -1,0 +1,192 @@
+#header-parent {
+	padding: 0px 8px 8px 8px;
+/* 	padding-top:8px; */
+/* 	padding-bottom:8px; */
+/* 	padding-right:8px; */
+/* 	padding-left:8px; */
+	border-bottom: 1px solid #a8a8ab;
+	background: #616163; /* Old browsers */
+	background: -moz-linear-gradient(top, #616163 0%, #000000 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#616163), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #616163 0%,#000000 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #616163 0%,#000000 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #616163 0%,#000000 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #616163 0%,#000000 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#616163', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+
+#header {
+	width:50%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ #header-child{
+	padding:5px 0 5px 0;
+	position:relative;
+}
+
+#header-title img{
+	width: 25px;
+	heigth: 25px;
+	margin-right:10px;
+	vertical-align: middle;
+}
+
+#header-title {
+	cursor: pointer;
+	display:inline-block;
+}
+
+ #header-cart{
+	display: inline-block;
+	text-align:left;
+    float:right;
+	color:white;
+	font-size: 15px;
+	font-family: Consolas, monaco, monospace;
+	margin-top: 5px;
+	margin-right: 10px;
+	cursor: default;
+}
+
+ #header-cart img{
+	width: 30px;
+	heigth: 30px;
+	cursor: pointer;
+}
+
+ #header-cart img:HOVER{
+	content: url("/webapplicationProject/icon/shopping-cart-hover.png");
+}
+
+ #header-cart #cart-icon{
+	float:left;
+}
+ #header-cart #cart-title{
+	float:left;
+}
+
+ #header-cart #cart-title #pizza-cart-item-number{
+	color:#3BFF52; 
+	font-weight: bold
+}
+
+ #header-title{
+ 	display: inline-block;
+    padding-top: 8px;
+}
+
+#header-title span{
+	
+	color: white;
+	font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+	font-size:20px;
+	margin-top: 0;
+	margin-bottom: 0;
+	vertical-align: middle;
+}
+
+#menu {
+	text-align: center;
+	position: relative;
+	border-bottom: 1px solid gray;
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 100%);
+	/* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff),
+		color-stop(100%, #e5e5e5)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffffff 0%, #e5e5e5 100%);
+	/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ffffff 0%, #e5e5e5 100%);
+	/* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ffffff 0%, #e5e5e5 100%);
+	/* IE10+ */
+	background: linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%);
+	/* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff',
+		endColorstr='#e5e5e5', GradientType=0); /* IE6-9 */
+	border-radius: 5px 5px 0px 0px;
+}
+
+.master-container img {
+	width: 100%;
+}
+
+ul {
+	border-radius: 10px;
+	width: 100%;
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+	margin: 0;
+}
+
+a.styleanchor {
+	text-decoration: none;
+	color: black;
+	font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;	background-color: rgba(0, 0, 0, 0);
+	padding: 10px;
+	display: inline-block;
+}
+
+a.styleanchor:hover {
+	color:#8A8A8A;
+}
+
+#selected {
+	box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1), inset 0 3px 2px
+		rgba(0, 0, 0, 0.1);
+	background: #636363;
+	color: white;
+	position: relative;
+}
+#selected:before{
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	line-height: 0;
+	border: 8px solid transparent;
+	border-bottom: 8px solid #ffffff;
+	left: 43%;
+	right: 43%;
+	bottom: 0;
+}
+
+li {
+	display: inline-block;
+}
+
+/* li:nth-child(-n+4):after { */
+/*     content: " "; */
+/*     width: 1px; */
+/*     height: 100%; */
+/*     border: 1px inset rgba(0,0,0,.25); */
+/*     padding: 1px; */
+/* } */
+
+li:nth-child(-n+4)>a {
+	border-right: 1px solid #8F8F8F;
+}
+
+.footer {
+	vertical-align: center;
+	border-top: 2px solid White;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	color: Black;
+	position: relative;
+	bottom: -15px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+.footer .languge-footer {
+	position: relative;
+	float: right;
+	right: 20px;
+}

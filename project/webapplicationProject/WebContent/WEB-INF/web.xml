@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" 
+	id="WebApp_ID" 
+	version="3.1">
+  <servlet>
+  	<servlet-name>UserLogin</servlet-name>
+  	<servlet-class>net.login.UserLogin</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>StoreLogin</servlet-name>
+  	<servlet-class>net.login.StoreLogin</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UpdateData</servlet-name>
+  	<servlet-class>net.update.DatabaseUpdate</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CartUpdate</servlet-name>
+  	<servlet-class>net.update.CartUpdate</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SessionSetter</servlet-name>
+  	<servlet-class>net.session.SessionSetter</servlet-class> 
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>UserLogin</servlet-name>
+  	<url-pattern>/userlogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UpdateData</servlet-name>
+  	<url-pattern>/updatedata</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+  	<servlet-name>StoreLogin</servlet-name>
+  	<url-pattern>/storelogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CartUpdate</servlet-name>
+  	<url-pattern>/cartupdate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SessionSetter</servlet-name>
+  	<url-pattern>/sessionsetter</url-pattern>
+  </servlet-mapping>
+
+  <display-name>webapplicationProject</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

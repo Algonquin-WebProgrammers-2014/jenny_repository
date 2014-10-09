@@ -1,0 +1,121 @@
+@CHARSET "ISO-8859-1";
+
+.menu-table {
+	width: 100%;
+	table-layout: fixed;
+}
+
+.menu-table .pizza-hint {
+	font-size: 16px;
+	border: 1px solid white;
+	display: none;
+}
+
+
+.menu-table th {
+	padding-top: 10px;
+	padding:5px;
+}
+
+.menu-table .image-info {
+	position: relative;
+	display: inline-block;
+}
+
+.menu-table th .add-to-cart{
+	margin: 5px 0px 0px 0px;
+	border-radius:5px;
+	background-color: #d15619;
+	background-image: -webkit-linear-gradient(bottom, #d15619 0%, #e1956e 100%);
+	background-image: -moz-linear-gradient(bottom, #d15619 0%, #e1956e 100%);
+	background-image: -o-linear-gradient(bottom, #d15619 0%, #e1956e 100%);
+	background-image: -ms-linear-gradient(bottom, #d15619 0%, #e1956e 100%);
+	background-image: linear-gradient(bottom, #d15619 0%, #e1956e 100%);
+	cursor: pointer;
+	-webkit-box-shadow: inset 0px 1px 0px #f4d0aa;
+	box-shadow: inset 0px 1px 0px #f4d0aa;
+	color:white;
+	padding:5px;
+	font-size: 15px;
+}
+
+.menu-table th .add-to-cart:HOVER{
+	background-color: #5f73e9;
+	background-image: -webkit-linear-gradient(bottom, #e56627 0%, #dca081 100%);
+	background-image: -moz-linear-gradient(bottom, #e56627 0%, #dca081 100%);
+	background-image: -o-linear-gradient(bottom, #e56627 0%, #dca081 100%);
+	background-image: -ms-linear-gradient(bottom, #e56627 0%, #dca081 100%);
+	background-image: linear-gradient(bottom, #e56627 0%, #dca081 100%);
+	-webkit-box-shadow: inset 0px 1px 0px #aab9f4;
+	box-shadow: inset 0px 1px 0px #aab9f4;
+}
+
+.menu-table th .add-to-cart:ACTIVE{
+	background-color: #7588e1;
+	background-image: -webkit-linear-gradient(bottom, #d58a63 0%, #d08660 100%);
+	background-image: -moz-linear-gradient(bottom, #d58a63 0%, #d08660 100%);
+	background-image: -o-linear-gradient(bottom, #d58a63 0%, #d08660 100%);
+	background-image: -ms-linear-gradient(bottom, #d58a63 0%, #d08660 100%);
+	background-image: linear-gradient(bottom, #d58a63 0%, #d08660 100%);
+	-webkit-box-shadow: inset 0px 1px 0px #93a9e9;
+	box-shadow: inset 0px 1px 0px #93a9e9;
+}
+
+.menu-table th div:HOVER .pizza-hint {
+	display: block;
+	width: 90%;
+	position: absolute;
+	top: 25%;
+	left: 50%;
+    -ms-transform: translate(-50%,-50%);      
+     -webkit-transform: translate(-50%,-50%);  
+    transform: translate(-50%,-50%);
+	border: 1px solid white;
+	padding: 5px 5px 5px 5px;
+	border-radius: 5px;
+	background-color: rgba(227, 255, 255, 0.7);
+	background: rgba(227, 255, 255, 0.7);
+}
+
+
+.menu-table table {
+	width: 100%;
+	table-layout: fixed;
+	border-bottom: 1px solid #e56627;
+	border-left: 1px solid #e56627;
+	border-right: 1px solid #e56627;
+	padding: 0px 3px 3px 3px;
+}
+
+.menu-table table span {
+	font-size: 16px;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	color: #813916;
+}
+
+.menu-table table input {
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	text-shadow: 0, 1px, 0 rgba(255, 255, 255, 0.8);
+	width: 90%;
+	padding: 5px 0 5px 0;
+	text-align: center;
+	border: none;
+	box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1), inset 0 3px 2px
+		rgba(0, 0, 0, 0.1);
+	border-radius: 3px;
+	color: #777;
+}
+
+
+.menu-table table th {
+	padding: 3px 7px 0px 7px;
+}
+
+.menu-table .pizza-title {
+	font-size: 25px;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	color: #ff950b;
+	margin-bottom: 10px;
+}

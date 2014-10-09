@@ -1,0 +1,12 @@
+INSERT INTO special_pizza_list VALUES(1,'House','Ham, Pepperoni, Mushroom, Shrimp, Green Pepper & Black Olive',0,'HS');
+INSERT INTO special_pizza_list VALUES(2,'Bill''s','Back Bacon, Ham, Pepperoni, Salami, Beef, Onion & Tomato',1,'BL');
+INSERT INTO special_pizza_list VALUES(3,'Vegetarian','Mushroom, Green Pepper, Onion, Tomato & Black Olive',2,'VG');
+INSERT INTO special_pizza_list VALUES(4,'All Meat','Ham, Pepperoni, Salami, Beef & Sausage',3,'AM');
+INSERT INTO special_pizza_list VALUES(5,'Mexican','Pepperoni, Salami, Beef & Banana Pepper',4,'MX');
+INSERT INTO special_pizza_list VALUES(6,'Greek','Ham, Pepperoni, Onion, Tomato, Feta & Black Olive',5,'GK');
+INSERT INTO special_pizza_list VALUES(7,'Italian','Pepperoni, Salami, Sausage & Green Pepper',6,'ITL');
+INSERT INTO special_pizza_list VALUES(8,'Mediterranean','Chicken, Spinach, Feta & Onion',7,'MDN');
+INSERT INTO special_pizza_list VALUES(9,'Hawiian','Ham & Pineapple',8,'HWN');
+INSERT INTO special_pizza_list VALUES(10,'Cheese Burger','Beef, Onions, Tomato, Pickle & Cheddar',9,'CB');
+INSERT INTO special_pizza_list VALUES(11,'Four Cheese','Cheddar, Parmesan, Feta & Mozzarella',10,'FC');
+INSERT INTO special_pizza_list VALUES(12,'Summer BBQ','Grilled Chicken, Pineapple, Onion & BBQ Sauce',11,'SB');
